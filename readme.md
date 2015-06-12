@@ -4,3 +4,4 @@ Some toy projects in Golang
 
 piglatin.go -> turns inputted word into pig latin, example of using regular expressions
 
+factorial.go -> returns factorial of a number, example of recursion
