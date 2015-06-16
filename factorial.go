@@ -15,10 +15,9 @@ func factorial(n int) int {
 }
 
 func main() {
-
-	input, e := strconv.Atoi(os.Args[1])
-	if e != nil {
-		fmt.Println(e)
+	input, err := strconv.Atoi(os.Args[1])
+	if err != nil {
+		fmt.Println(err)
 	}
 
 	output := (factorial(input))
